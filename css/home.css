@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background: #101e2f;
+    font-family: 'Poppins', sans-serif;
+    height: 350vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.ungeek.ph/wp-content/uploads/2022/07/Blockman_GO-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-position: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 375px;
+    height: 12vh;
+    background: #8dd6e9;
+    display: flex;
+    align-items: center;
+    color: #f7f7f7;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    padding: 12px;
+    line-height: 0rem;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-weight: 600;
+}
+ul.navbar li a.active{
+    color: #ffd332;
+}
+ul.navbar li a:hover:not(.active){
+    color: #ffd332;
+}
+
+/* Header ends here */
+
+.content-wrapper{
+    width: 80%;
+    min-height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f7f7f7;
+}
+.content-desc h1{
+    margin-top: 200px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    width: 500px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.games-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.games-section h1{
+    width: 100px;
+    font-size: 2rem;
+    color: #ffd332;
+    margin-left: 10px;
+}
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.767), rgba(0,0,0,0.712)),
+    url(https://hungrygeeks.com.ph/wp-content/uploads/2022/07/Blockman-GO-Cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    font-size: 1.5rem;
+    color: #ffd332;
+    font-weight: 450;
+}
+.section-1-img{
+    display: flex;
+
+}
+.section-1-img .img{
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1046-1666840535783.png);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.section-1-img .img-2{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2041-1622614908192.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-3{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2051-1640339483346.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-4{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1002-1595505504902.webp);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-5{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2021-1595510140370.webp);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-6{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1026-1595506539295.webp);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-7{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1058-1595508609926.webp);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-8{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1024-1595506488439.webp);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px)
+}
+.adventure-games{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.adventure-games h1{
+    font-size: 1.5rem;
+    margin: 30px 0;
+    color: #ffd332;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    width: 120px;
+    height: 120px;
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1027-1595506570080.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.gw-1{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1027-1595506570080.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1019-1595506292423.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2030-1595564518446.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1055-1595508513797.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1015-1595506098537.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1021-1595506384159.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gw-7{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1048-1665794965064.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1013-1595505985876.webp);
+    background-size: cover;
+    background-position: center;
+}
+.role-playing-games{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.role-playing-games h1{
+    font-size: 1.5rem;
+    margin: 30px 0;
+    color: #ffd332;
+}
+.game-section{
+    display: flex;
+}
+.gs{
+    width: 120px;
+    height: 120px;
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2047-1631071397935.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.gs:hover{
+    transform: translateY(-10px);
+}
+.gs-1{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2047-1631071397935.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gs-2{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2033-1657772575238.png);
+    background-size: cover;
+    background-position: center;
+}
+.gs-3{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2038-1610422887250.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gs-4{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1014-1595506052836.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gs-5{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2055-1656570041679.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gs-6{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2060-1661482494630.png);
+    background-size: cover;
+    background-position: center;
+}
+.gs-7{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2034-1614337880064.png);
+    background-size: cover;
+    background-position: center;
+}
+.gs-8{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2061-1666858276216.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-2{
+    width: 100%;
+    height: 100vh;
+    background-color: #172a42;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color:#ffd332;
+    margin: 20px 0;
+}
+.trend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t-image{
+    width: 175px;
+    height: 175px;
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1046-1666840535783.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+.trend span{
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #6b55ff;
+    color: #f7f7f7;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.t-image-2{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1048-1665794965064.png);
+    background-size: cover;
+    background-position: center;
+}
+.t-image-3{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g1018-1658297685573.png);
+    background-size: cover;
+    background-position: center;
+}
+.t-image-4{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2038-1610422887250.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.t-image-5{
+    background: url(https://d1uba6qpncid9.cloudfront.net/sandbox/games/images/g2041-1622614908192.png);
+    background-size: cover;
+    background-position: center;
+}
+html, footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #101e2f;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background: none;
+    color: #f7f7f7;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #f7f7f7;
+    font-weight: 600;
+    font-size: 20px;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+ul li a:hover{
+    color: #ffd332;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #000;
+    color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #ffd332;
+    font-weight: bold;
+}
+
+.progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 300;
+}
+.progress-bar{
+    height: 4px;
+    background: #ffd332;
+    width: 0%;
+}
